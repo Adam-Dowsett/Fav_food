@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 body {
@@ -6,16 +7,20 @@ body {
     overflow-y:hidden;
   }
 
+
 .boxText{
     background-color: rgba(0, 0, 0, 0.526);
     border-radius: 10px;
 }
 
 .caro {
+
     box-shadow: 0 8px 16px 0 rgba(49, 5, 5, 0.6);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
     height: 80%;
     width: 80%;
 }
+
 
 h1{
     font-family: 'Playfair Display', serif;
@@ -24,3 +29,4 @@ h1{
 h1:hover{
     
 }
+
