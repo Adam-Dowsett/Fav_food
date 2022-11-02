@@ -5,8 +5,14 @@ body {
     background-color: #000000eb;
     overflow-x:hidden;
     overflow-y:hidden;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+
 
   }
+
+  
 
 
 .boxText{
@@ -35,6 +41,15 @@ h1{
     font-size: 5em;
 }
 h1:hover{
-    
+    color:white;
+    transition:0.4s;
 }
-
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    color: white;
+}
+h2:hover{
+    color:black;
+    transition:0.4s;
+}
